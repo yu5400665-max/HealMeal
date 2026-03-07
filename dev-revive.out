@@ -1,0 +1,70 @@
+
+> healmeal@0.1.0 dev:win
+> scripts\dev-win.cmd
+
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:7860
+  - Network:      http://0.0.0.0:7860
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 3.5s
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 14.6s (584 modules)
+ GET / 200 in 14614ms
+ GET /meal-plan 200 in 14488ms
+ GET / 200 in 66ms
+ GET /_next/static/webpack/6507791c1d180478.webpack.hot-update.json 404 in 14872ms
+ GET /meal-plan 200 in 109ms
+ GET / 200 in 71ms
+ ✓ Compiled /api/weather in 320ms (316 modules)
+ GET / 200 in 141ms
+ GET /meal-plan 200 in 92ms
+ GET /api/weather?lat=22.28360891148418&lon=114.13780091400602&city=%E6%B7%B1%E5%9C%B3 200 in 3161ms
+ GET /api/weather?lat=22.28360891148418&lon=114.13780091400602 200 in 3559ms
+ GET /api/weather?lat=22.28360891148418&lon=114.13780091400602 200 in 844ms
+ ○ Compiling /checkin ...
+ ✓ Compiled /checkin in 938ms (606 modules)
+ ○ Compiling /logs ...
+ ✓ Compiled /logs in 1807ms (689 modules)
+ ○ Compiling /family ...
+ ✓ Compiled /family in 692ms (695 modules)
+ ✓ Compiled /api/weather in 234ms (380 modules)
+ GET /api/weather?lat=22.28360891148418&lon=114.13780091400602 200 in 3024ms
+ GET /api/weather?lat=22.28360891148418&lon=114.13780091400602&city=%E6%B7%B1%E5%9C%B3 200 in 3027ms
+ GET /api/weather?lat=22.28360891148418&lon=114.13780091400602 200 in 643ms
+ GET /api/weather?lat=22.28360891148418&lon=114.13780091400602 200 in 2820ms
+ GET /api/weather?lat=22.28360891148418&lon=114.13780091400602&city=%E6%B7%B1%E5%9C%B3 200 in 2771ms
+ GET /api/weather?lat=22.28360891148418&lon=114.13780091400602 200 in 745ms
+ GET /api/weather?lat=22.28360909307862&lon=114.13775049946977 200 in 2193ms
+ GET /api/weather?lat=22.28360909307862&lon=114.13775049946977&city=%E6%B7%B1%E5%9C%B3 200 in 2191ms
+ GET /api/weather?lat=22.28360909307862&lon=114.13775049946977 200 in 558ms
+ ✓ Compiled in 3s (709 modules)
+ ✓ Compiled in 697ms (709 modules)
+ ✓ Compiled in 878ms (709 modules)
+ ✓ Compiled in 627ms (709 modules)
+ ✓ Compiled in 609ms (709 modules)
+ ✓ Compiled in 599ms (709 modules)
+ ✓ Compiled in 728ms (709 modules)
+ ✓ Compiled /api/weather in 240ms (380 modules)
+ GET /api/weather?lat=22.28360909307862&lon=114.13775049946977&city=%E6%B7%B1%E5%9C%B3 200 in 2470ms
+ GET /api/weather?lat=22.28360909307862&lon=114.13775049946977 200 in 2481ms
+ GET /api/weather?lat=22.28360909307862&lon=114.13775049946977 200 in 558ms
+ ✓ Compiled in 2.1s (739 modules)
+ GET /api/weather?lat=22.28360909307862&lon=114.13775049946977 200 in 2685ms
+ GET /api/weather?lat=22.28360909307862&lon=114.13775049946977&city=%E6%B7%B1%E5%9C%B3 200 in 2689ms
+ GET /api/weather?lat=22.28360909307862&lon=114.13775049946977 200 in 908ms
+ GET /api/weather?lat=22.28360909307862&lon=114.13775049946977 200 in 635ms
+ GET /api/weather?lat=22.28360909307862&lon=114.13775049946977 200 in 559ms
+ GET /api/weather?lat=22.28360909307862&lon=114.13775049946977&city=%E6%B7%B1%E5%9C%B3 200 in 1420ms
+ ✓ Compiled in 741ms (739 modules)
+ GET /api/weather?lat=22.28360909307862&lon=114.13775049946977&city=%E6%B7%B1%E5%9C%B3 200 in 2179ms
+ GET /api/weather?lat=22.28360909307862&lon=114.13775049946977 200 in 2201ms
+ GET /api/weather?lat=22.28360909307862&lon=114.13775049946977 200 in 579ms
+ ✓ Compiled in 934ms (739 modules)
+ ✓ Compiled in 785ms (739 modules)
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 3.3s (919 modules)
+ GET /meal-plan 500 in 77ms
+ GET /checkin 500 in 92ms
+[?25h

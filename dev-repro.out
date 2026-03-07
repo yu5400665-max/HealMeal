@@ -1,0 +1,25 @@
+
+> healmeal@0.1.0 dev
+> next dev -H 0.0.0.0 -p 7860
+
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:7860
+  - Network:      http://0.0.0.0:7860
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 3.8s
+ ○ Compiling / ...
+ ✓ Compiled / in 19.6s (684 modules)
+ GET / 200 in 2903ms
+ ○ Compiling /meal-plan ...
+ ✓ Compiled /meal-plan in 819ms (680 modules)
+ GET /meal-plan 200 in 1038ms
+ GET /logs 200 in 128ms
+ ○ Compiling /family ...
+ ✓ Compiled /family in 705ms (686 modules)
+ GET /family 200 in 845ms
+ ○ Compiling /checkin ...
+ ✓ Compiled /checkin in 768ms (694 modules)
+ GET /checkin 200 in 917ms
+ GET /logs 200 in 74ms

@@ -1,0 +1,280 @@
+ ⨯ Error: Cannot find module 'C:\Users\32792\Desktop\MYCODE\.next\server\middleware-manifest.json'
+Require stack:
+- C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next-server.js
+- C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\dev\next-dev-server.js
+- C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next.js
+- C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1448:15)
+    at C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)
+    at Module._load (node:internal/modules/cjs/loader:1234:25)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1548:12)
+    at mod.require (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at DevServer.getMiddlewareManifest (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next-server.js:933:26)
+    at DevServer.getEdgeFunctionsPages (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next-server.js:949:31)
+    at NextNodeServer.handleCatchallRenderRequest (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next-server.js:238:49)
+    at async DevServer.handleRequestImpl (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\base-server.js:816:17)
+    at async C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\router-server.js:174:21)
+    at async handleRequest (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\router-server.js:353:24)
+    at async requestHandlerImpl (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\router-server.js:377:13)
+    at async Server.requestListener (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\32792\\Desktop\\MYCODE\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\32792\\Desktop\\MYCODE\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js',
+    'C:\\Users\\32792\\Desktop\\MYCODE\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\32792\\Desktop\\MYCODE\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module 'C:\Users\32792\Desktop\MYCODE\.next\server\middleware-manifest.json'
+Require stack:
+- C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next-server.js
+- C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\dev\next-dev-server.js
+- C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next.js
+- C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1448:15)
+    at C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)
+    at Module._load (node:internal/modules/cjs/loader:1234:25)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1548:12)
+    at mod.require (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at DevServer.getMiddlewareManifest (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next-server.js:933:26)
+    at DevServer.getEdgeFunctionsPages (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next-server.js:949:31)
+    at NextNodeServer.handleCatchallRenderRequest (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next-server.js:238:49)
+    at async DevServer.handleRequestImpl (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\base-server.js:816:17)
+    at async C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\router-server.js:174:21)
+    at async handleRequest (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\router-server.js:353:24)
+    at async requestHandlerImpl (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\router-server.js:377:13)
+    at async Server.requestListener (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\32792\\Desktop\\MYCODE\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\32792\\Desktop\\MYCODE\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js',
+    'C:\\Users\\32792\\Desktop\\MYCODE\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\32792\\Desktop\\MYCODE\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module 'C:\Users\32792\Desktop\MYCODE\.next\server\middleware-manifest.json'
+Require stack:
+- C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next-server.js
+- C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\dev\next-dev-server.js
+- C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next.js
+- C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1448:15)
+    at C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)
+    at Module._load (node:internal/modules/cjs/loader:1234:25)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1548:12)
+    at mod.require (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at DevServer.getMiddlewareManifest (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next-server.js:933:26)
+    at DevServer.getEdgeFunctionsPages (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next-server.js:949:31)
+    at NextNodeServer.handleCatchallRenderRequest (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next-server.js:238:49)
+    at async DevServer.handleRequestImpl (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\base-server.js:816:17)
+    at async C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\router-server.js:174:21)
+    at async handleRequest (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\router-server.js:353:24)
+    at async requestHandlerImpl (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\router-server.js:377:13)
+    at async Server.requestListener (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\32792\\Desktop\\MYCODE\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\32792\\Desktop\\MYCODE\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js',
+    'C:\\Users\\32792\\Desktop\\MYCODE\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\32792\\Desktop\\MYCODE\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module 'C:\Users\32792\Desktop\MYCODE\.next\server\middleware-manifest.json'
+Require stack:
+- C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next-server.js
+- C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\dev\next-dev-server.js
+- C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next.js
+- C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1448:15)
+    at C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)
+    at Module._load (node:internal/modules/cjs/loader:1234:25)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1548:12)
+    at mod.require (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at DevServer.getMiddlewareManifest (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next-server.js:933:26)
+    at DevServer.getEdgeFunctionsPages (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next-server.js:949:31)
+    at NextNodeServer.handleCatchallRenderRequest (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next-server.js:238:49)
+    at async DevServer.handleRequestImpl (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\base-server.js:816:17)
+    at async C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\router-server.js:174:21)
+    at async handleRequest (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\router-server.js:353:24)
+    at async requestHandlerImpl (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\router-server.js:377:13)
+    at async Server.requestListener (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\32792\\Desktop\\MYCODE\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\32792\\Desktop\\MYCODE\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js',
+    'C:\\Users\\32792\\Desktop\\MYCODE\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\32792\\Desktop\\MYCODE\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module 'C:\Users\32792\Desktop\MYCODE\.next\server\middleware-manifest.json'
+Require stack:
+- C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next-server.js
+- C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\dev\next-dev-server.js
+- C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next.js
+- C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1448:15)
+    at C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)
+    at Module._load (node:internal/modules/cjs/loader:1234:25)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1548:12)
+    at mod.require (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at DevServer.getMiddlewareManifest (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next-server.js:933:26)
+    at DevServer.getEdgeFunctionsPages (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next-server.js:949:31)
+    at NextNodeServer.handleCatchallRenderRequest (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next-server.js:238:49)
+    at async DevServer.handleRequestImpl (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\base-server.js:816:17)
+    at async C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\router-server.js:174:21)
+    at async handleRequest (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\router-server.js:353:24)
+    at async requestHandlerImpl (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\router-server.js:377:13)
+    at async Server.requestListener (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\32792\\Desktop\\MYCODE\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\32792\\Desktop\\MYCODE\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js',
+    'C:\\Users\\32792\\Desktop\\MYCODE\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\32792\\Desktop\\MYCODE\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module 'C:\Users\32792\Desktop\MYCODE\.next\server\middleware-manifest.json'
+Require stack:
+- C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next-server.js
+- C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\dev\next-dev-server.js
+- C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next.js
+- C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1448:15)
+    at C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)
+    at Module._load (node:internal/modules/cjs/loader:1234:25)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1548:12)
+    at mod.require (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at DevServer.getMiddlewareManifest (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next-server.js:933:26)
+    at DevServer.getEdgeFunctionsPages (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next-server.js:949:31)
+    at NextNodeServer.handleCatchallRenderRequest (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next-server.js:238:49)
+    at async DevServer.handleRequestImpl (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\base-server.js:816:17)
+    at async C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\router-server.js:174:21)
+    at async handleRequest (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\router-server.js:353:24)
+    at async requestHandlerImpl (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\router-server.js:377:13)
+    at async Server.requestListener (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\32792\\Desktop\\MYCODE\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\32792\\Desktop\\MYCODE\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js',
+    'C:\\Users\\32792\\Desktop\\MYCODE\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\32792\\Desktop\\MYCODE\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module 'C:\Users\32792\Desktop\MYCODE\.next\server\middleware-manifest.json'
+Require stack:
+- C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next-server.js
+- C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\dev\next-dev-server.js
+- C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next.js
+- C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1448:15)
+    at C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)
+    at Module._load (node:internal/modules/cjs/loader:1234:25)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1548:12)
+    at mod.require (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at DevServer.getMiddlewareManifest (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next-server.js:933:26)
+    at DevServer.getEdgeFunctionsPages (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next-server.js:949:31)
+    at NextNodeServer.handleCatchallRenderRequest (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next-server.js:238:49)
+    at async DevServer.handleRequestImpl (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\base-server.js:816:17)
+    at async C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\router-server.js:174:21)
+    at async handleRequest (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\router-server.js:353:24)
+    at async requestHandlerImpl (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\router-server.js:377:13)
+    at async Server.requestListener (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\32792\\Desktop\\MYCODE\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\32792\\Desktop\\MYCODE\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js',
+    'C:\\Users\\32792\\Desktop\\MYCODE\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\32792\\Desktop\\MYCODE\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module 'C:\Users\32792\Desktop\MYCODE\.next\server\middleware-manifest.json'
+Require stack:
+- C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next-server.js
+- C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\dev\next-dev-server.js
+- C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next.js
+- C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1448:15)
+    at C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)
+    at Module._load (node:internal/modules/cjs/loader:1234:25)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1548:12)
+    at mod.require (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at DevServer.getMiddlewareManifest (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next-server.js:933:26)
+    at DevServer.getEdgeFunctionsPages (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next-server.js:949:31)
+    at NextNodeServer.handleCatchallRenderRequest (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\next-server.js:238:49)
+    at async DevServer.handleRequestImpl (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\base-server.js:816:17)
+    at async C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\router-server.js:174:21)
+    at async handleRequest (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\router-server.js:353:24)
+    at async requestHandlerImpl (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\router-server.js:377:13)
+    at async Server.requestListener (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\32792\\Desktop\\MYCODE\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\32792\\Desktop\\MYCODE\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js',
+    'C:\\Users\\32792\\Desktop\\MYCODE\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\32792\\Desktop\\MYCODE\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}

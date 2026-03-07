@@ -1,0 +1,62 @@
+
+> healmeal@0.1.0 dev
+> scripts\dev-win.cmd
+
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:7860
+  - Network:      http://0.0.0.0:7860
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 4.1s
+ ○ Compiling /logs ...
+ ✓ Compiled /logs in 18.7s (684 modules)
+ GET /logs 200 in 19084ms
+ GET / 200 in 19264ms
+ ○ Compiling /meal-plan ...
+ ✓ Compiled /meal-plan in 911ms (680 modules)
+ GET /meal-plan 200 in 1141ms
+ GET /logs 200 in 144ms
+ ○ Compiling /family ...
+ ✓ Compiled /family in 700ms (686 modules)
+ GET /family 200 in 839ms
+ ○ Compiling /checkin ...
+ ✓ Compiled /checkin in 762ms (694 modules)
+ GET /checkin 200 in 898ms
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 2.8s (894 modules)
+ GET /logs 500 in 3816ms
+ ✓ Compiled / in 420ms (376 modules)
+ GET / 500 in 539ms
+ ✓ Compiled /checkin in 522ms (382 modules)
+ GET /checkin 500 in 620ms
+ ✓ Compiled /meal-plan in 377ms (387 modules)
+ GET /meal-plan 500 in 467ms
+ GET /logs 500 in 59ms
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:7860
+  - Network:      http://0.0.0.0:7860
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 4.5s
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 10.7s (657 modules)
+ GET /logs 200 in 11245ms
+ GET /_next/static/webpack/611daa2212f3ee65.webpack.hot-update.json 404 in 11217ms
+ GET /logs 200 in 106ms
+ ○ Compiling /checkin ...
+ ✓ Compiled /checkin in 981ms (677 modules)
+ GET /checkin 200 in 1276ms
+ ○ Compiling / ...
+ ✓ Compiled / in 527ms (683 modules)
+ GET / 200 in 683ms
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 3.4s (907 modules)
+ GET /checkin 500 in 4971ms
+ GET /_next/static/webpack/8271cf13c1664311.webpack.hot-update.json 500 in 4867ms
+ ○ Compiling /meal-plan ...
+ ✓ Compiled /meal-plan in 1521ms (915 modules)
+ GET /logs 500 in 1648ms
+ GET /meal-plan 200 in 1882ms
+ GET /logs 500 in 92ms

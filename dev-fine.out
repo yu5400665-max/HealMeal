@@ -1,0 +1,50 @@
+
+> healmeal@0.1.0 dev:win
+> scripts\dev-win.cmd
+
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:7860
+  - Network:      http://0.0.0.0:7860
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 4s
+ ○ Compiling / ...
+ ✓ Compiled / in 7.9s (569 modules)
+ GET / 200 in 8402ms
+ ○ Compiling /checkin ...
+ ✓ Compiled /checkin in 1119ms (577 modules)
+ ✓ Compiled in 543ms (297 modules)
+ ✓ Compiled in 326ms (297 modules)
+ ✓ Compiled in 486ms (297 modules)
+ ✓ Compiled in 353ms (297 modules)
+ ✓ Compiled in 554ms (283 modules)
+ ✓ Compiled in 761ms (283 modules)
+ ✓ Compiled in 551ms (283 modules)
+ ✓ Compiled in 613ms (283 modules)
+ ✓ Compiled in 420ms (297 modules)
+ ✓ Compiled in 310ms (297 modules)
+ ✓ Compiled in 430ms (297 modules)
+ ✓ Compiled in 695ms (297 modules)
+ ✓ Compiled in 353ms (297 modules)
+ ✓ Compiled in 434ms (297 modules)
+ ✓ Compiled in 393ms (297 modules)
+ ✓ Compiled in 522ms (297 modules)
+ ○ Compiling /checkin ...
+ ✓ Compiled /checkin in 1003ms (280 modules)
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 2.5s (787 modules)
+ GET /checkin 500 in 4749ms
+ ○ Compiling /meal-plan ...
+ ✓ Compiled /meal-plan in 1160ms (786 modules)
+ GET /meal-plan 200 in 1512ms
+ ✓ Compiled /checkin in 369ms (326 modules)
+ GET /checkin 200 in 614ms
+ ✓ Compiled /_not-found in 483ms (798 modules)
+ GET /_next/static/css/app/layout.css?v=1772892096302 404 in 709ms
+ GET /_next/static/chunks/main-app.js?v=1772892096302 404 in 639ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 258ms
+ GET /_next/static/chunks/app/checkin/page.js 404 in 81ms
+ GET /_next/static/chunks/app/error.js 404 in 77ms
+ GET /_next/static/chunks/app/not-found.js 404 in 75ms
+[?25h

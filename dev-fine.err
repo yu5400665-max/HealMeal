@@ -1,0 +1,37 @@
+ ⨯ TypeError: __webpack_modules__[moduleId] is not a function
+    at Object.__webpack_require__ [as require] (C:\Users\32792\Desktop\MYCODE\.next\server\webpack-runtime.js:33:42)
+    at JSON.parse (<anonymous>)
+digest: "1837504466"
+TypeError: __webpack_modules__[moduleId] is not a function
+    at Object.__webpack_require__ [as require] (C:\Users\32792\Desktop\MYCODE\.next\server\webpack-runtime.js:33:42)
+    at require (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:39:19729)
+    at C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:108279
+    at eo (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:108464)
+    at C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:110693
+    at Object._fromJSON (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:111249)
+    at JSON.parse (<anonymous>)
+    at eu (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:108958)
+    at en (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:108026)
+    at C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115168
+    at C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115185
+    at C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115218
+    at C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115235
+    at t (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115458)
+ ⨯ TypeError: __webpack_modules__[moduleId] is not a function
+    at Object.__webpack_require__ [as require] (C:\Users\32792\Desktop\MYCODE\.next\server\webpack-runtime.js:33:42)
+    at require (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:39:19729)
+    at C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:108279
+    at eo (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:108464)
+    at C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:110693
+    at Object._fromJSON (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:111249)
+    at JSON.parse (<anonymous>)
+    at eu (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:108958)
+    at en (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:108026)
+    at C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115168
+    at C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115185
+    at C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115218
+    at C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115235
+    at t (C:\Users\32792\Desktop\MYCODE\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115458) {
+  page: '/checkin'
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.

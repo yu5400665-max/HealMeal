@@ -1,0 +1,33 @@
+
+> healmeal@0.1.0 dev:win
+> scripts\dev-win.cmd
+
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:7860
+  - Network:      http://0.0.0.0:7860
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 4s
+ ○ Compiling /logs ...
+ ✓ Compiled /logs in 9.1s (668 modules)
+ GET /logs 500 in 9450ms
+ GET /logs 500 in 9441ms
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 11.2s (892 modules)
+ GET /logs 500 in 2868ms
+ ○ Compiling / ...
+ ✓ Compiled / in 879ms (834 modules)
+ ✓ Compiled /_error in 330ms (836 modules)
+ GET / 500 in 1323ms
+ ○ Compiling /meal-plan ...
+ ✓ Compiled /meal-plan in 1131ms (847 modules)
+ GET /meal-plan 500 in 1217ms
+ ✓ Compiled /logs in 360ms (382 modules)
+ GET /logs 500 in 417ms
+ ○ Compiling /family ...
+ ✓ Compiled /family in 754ms (910 modules)
+ GET /family 500 in 802ms
+ ○ Compiling /checkin ...
+ ✓ Compiled /checkin in 831ms (918 modules)
+ GET /checkin 500 in 874ms

@@ -1,0 +1,12 @@
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:7999
+  - Environments: .env.local
+
+ ✓ Starting...
+
+   We detected TypeScript in your project and reconfigured your tsconfig.json file for you. Strict-mode is set to false by default.
+   The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+   	- include was updated to add 'abc123/types/**/*.ts'
+
+ ✓ Ready in 4.2s

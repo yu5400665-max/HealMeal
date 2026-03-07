@@ -1,0 +1,77 @@
+
+> healmeal@0.1.0 dev
+> next dev -H 0.0.0.0 -p 7860
+
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:7860
+  - Network:      http://0.0.0.0:7860
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 4.3s
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 17.2s (576 modules)
+ GET /meal-plan 200 in 17177ms
+ GET / 200 in 17275ms
+ GET / 200 in 1505ms
+ GET /meal-plan 200 in 1516ms
+ GET /_next/static/webpack/342112544d4c4ae6.webpack.hot-update.json 404 in 17643ms
+ GET /meal-plan 200 in 188ms
+ GET / 200 in 78ms
+ ✓ Compiled /api/weather in 347ms (312 modules)
+ GET /api/weather?lat=22.267063117230272&lon=114.12812401073052&city=%E6%B7%B1%E5%9C%B3 200 in 2608ms
+ GET /api/weather?lat=22.267063117230272&lon=114.12812401073052 200 in 2698ms
+ GET /api/weather?lat=22.267063117230272&lon=114.12812401073052 200 in 600ms
+ ○ Compiling /logs ...
+ ✓ Compiled /logs in 2.2s (703 modules)
+ ○ Compiling /checkin ...
+ ✓ Compiled /checkin in 984ms (711 modules)
+ ○ Compiling /family ...
+ ✓ Compiled /family in 1093ms (685 modules)
+ ✓ Compiled /api/generate-meal-plan in 243ms (379 modules)
+[generate-meal-plan] env has key: true
+[generate-meal-plan] USE_MOCK: undefined
+ POST /api/generate-meal-plan 200 in 38257ms
+ POST /api/generate-meal-plan 200 in 46166ms
+   Reload env: .env.local
+ ✓ Compiled in 4s (699 modules)
+ ✓ Compiled in 1367ms (354 modules)
+ ✓ Compiled in 299ms (354 modules)
+ ✓ Compiled in 379ms (354 modules)
+ ✓ Compiled in 1039ms (705 modules)
+ ✓ Compiled in 477ms (705 modules)
+ ✓ Compiled in 702ms (712 modules)
+ ✓ Compiled in 543ms (712 modules)
+ ✓ Compiled in 667ms (712 modules)
+ ✓ Compiled in 605ms (712 modules)
+ ✓ Compiled in 610ms (712 modules)
+ ✓ Compiled in 489ms (712 modules)
+ ✓ Compiled in 250ms (357 modules)
+ ✓ Compiled in 219ms (357 modules)
+ ✓ Compiled in 288ms (357 modules)
+ ✓ Compiled in 574ms (698 modules)
+ ✓ Compiled in 449ms (712 modules)
+ ✓ Compiled in 666ms (712 modules)
+ ✓ Compiled in 246ms (357 modules)
+ ✓ Compiled in 795ms (712 modules)
+ ✓ Compiled in 626ms (714 modules)
+ ✓ Compiled in 580ms (714 modules)
+ ✓ Compiled in 770ms (714 modules)
+ ✓ Compiled in 788ms (714 modules)
+ ✓ Compiled in 746ms (714 modules)
+ ✓ Compiled in 940ms (714 modules)
+ ✓ Compiled in 798ms (714 modules)
+ ✓ Compiled in 839ms (714 modules)
+ ✓ Compiled in 855ms (714 modules)
+ ✓ Compiled in 763ms (714 modules)
+ ✓ Compiled in 755ms (714 modules)
+ ✓ Compiled in 708ms (714 modules)
+ ✓ Compiled in 752ms (714 modules)
+ ✓ Compiled in 559ms (714 modules)
+ ✓ Compiled in 647ms (714 modules)
+ ✓ Compiled in 723ms (714 modules)
+ ✓ Compiled in 326ms (358 modules)
+ ✓ Compiled in 345ms (358 modules)
+ ✓ Compiled in 288ms (358 modules)
+ ✓ Compiled in 562ms (714 modules)
+[?25h

@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --bg-app: #E5F3FE;
+  --bg-surface: #ffffff;
+  --card-bg: #ffffff;
+  --text-main: #2C3E50;
+  --text-subtle: #636E72;
+  --brand-blue: #8AB4F8;
+  --brand-blue-soft: #EAF2FF;
+  --brand-blue-strong: #8AB4F8;
+  --brand-green: #B5EAD7;
+  --brand-green-ink: #4F8D74;
+  --brand-purple: #CDB4DB;
+  --brand-purple-soft: #E6E6FA;
+  --brand-peach-soft: #FFF4EC;
+  --soft-shadow: 0 8px 16px rgba(138, 180, 248, 0.15);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg-app);
+  color: var(--text-main);
+  font-family: "Avenir Next", "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+button:focus-visible {
+  box-shadow: 0 0 0 3px rgba(138, 180, 248, 0.24);
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 22px;
+  width: 22px;
+  border-radius: 9999px;
+  background: var(--brand-blue);
+  border: 2px solid #fff;
+  box-shadow: 0 4px 10px rgba(138, 180, 248, 0.28);
+}
+
+input[type="range"]::-moz-range-thumb {
+  height: 22px;
+  width: 22px;
+  border-radius: 9999px;
+  background: var(--brand-blue);
+  border: 2px solid #fff;
+}
+
+.fade-in {
+  animation: fadeIn 0.35s ease;
+}
+
+.animate-soft-pop {
+  animation: softPop 0.8s ease;
+}
+
+.soft-card {
+  border-radius: 16px;
+  background: var(--card-bg);
+  box-shadow: var(--soft-shadow);
+}
+
+.soft-border {
+  border: none;
+  box-shadow: var(--soft-shadow);
+}
+
+.muted-text {
+  color: var(--text-subtle);
+}
+
+.pastel-app .border,
+.pastel-app .border-t,
+.pastel-app .border-b,
+.pastel-app .border-l,
+.pastel-app .border-r {
+  border-color: transparent !important;
+}
+
+.pastel-app button {
+  border: none;
+}
+
+.pastel-app input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="file"]),
+.pastel-app textarea,
+.pastel-app select {
+  border: none !important;
+  border-radius: 16px !important;
+  box-shadow: var(--soft-shadow);
+  color: var(--text-main);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes softPop {
+  0% {
+    opacity: 0;
+    transform: translateY(6px) scale(0.98);
+  }
+  35% {
+    opacity: 1;
+    transform: translateY(0) scale(1.03);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}

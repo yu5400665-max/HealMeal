@@ -1,0 +1,111 @@
+
+> healmeal@0.1.0 dev:win
+> scripts\dev-win.cmd
+
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:7860
+  - Network:      http://0.0.0.0:7860
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 3.7s
+ ○ Compiling /_not-found ...
+ ✓ Compiled /api/config-status in 17.9s (609 modules)
+ GET /meal-plan 200 in 17951ms
+ GET /api/config-status 200 in 6363ms
+ GET /meal-plan 200 in 6444ms
+ GET /_next/static/webpack/643d267fb56bfcd8.webpack.hot-update.json 404 in 18393ms
+ GET /meal-plan 200 in 74ms
+ GET /meal-plan 200 in 63ms
+ ○ Compiling /api/generate-meal-plan ...
+ ✓ Compiled /api/generate-meal-plan in 614ms (316 modules)
+ POST /api/generate-meal-plan 200 in 17659ms
+ ○ Compiling /family ...
+ ✓ Compiled /family in 707ms (602 modules)
+ ○ Compiling /logs ...
+ ✓ Compiled /logs in 1810ms (681 modules)
+ ○ Compiling /logs/publish ...
+ ✓ Compiled /logs/publish in 713ms (687 modules)
+ ○ Compiling / ...
+ ✓ Compiled / in 1017ms (693 modules)
+ ✓ Compiled /api/weather in 294ms (379 modules)
+ GET /api/weather?lat=22.283595604154105&lon=114.13776844540342 200 in 2536ms
+ GET /api/weather?lat=22.283595604154105&lon=114.13776844540342&city=%E6%B7%B1%E5%9C%B3 200 in 2541ms
+ GET /api/weather?lat=22.283595604154105&lon=114.13776844540342 200 in 583ms
+ ✓ Compiled /api/ai/stream in 311ms (384 modules)
+ POST /api/ai/stream 200 in 17321ms
+   Reload env: .env.local
+ ✓ Compiled in 418ms (689 modules)
+ ✓ Compiled in 286ms (689 modules)
+ ✓ Compiled /api/config-status in 277ms (376 modules)
+ GET /api/config-status 200 in 399ms
+ GET / 200 in 282ms
+ ✓ Compiled /api/weather in 325ms (375 modules)
+ GET /api/weather?lat=22.283596671293576&lon=114.13776551270166&city=%E6%B7%B1%E5%9C%B3 200 in 2627ms
+ GET /api/weather?lat=22.283596671293576&lon=114.13776551270166 200 in 2631ms
+ GET /api/weather?lat=22.283596671293576&lon=114.13776551270166 200 in 576ms
+ ✓ Compiled /api/ai/stream in 251ms (380 modules)
+ POST /api/ai/stream 200 in 6027ms
+ GET /api/weather?lat=22.283596671293576&lon=114.13776551270166&city=%E6%B7%B1%E5%9C%B3 200 in 2986ms
+ GET /api/weather?lat=22.283596671293576&lon=114.13776551270166 200 in 3148ms
+ GET /api/weather?lat=22.283596671293576&lon=114.13776551270166 200 in 745ms
+ POST /api/ai/stream 200 in 62ms
+ POST /api/ai/stream 200 in 5574ms
+ ✓ Compiled /api/generate-meal-plan in 404ms (379 modules)
+ POST /api/generate-meal-plan 200 in 17763ms
+ POST /api/generate-meal-plan 200 in 16347ms
+   Reload env: .env.local
+ ✓ Compiled in 1067ms (703 modules)
+ ✓ Compiled /api/config-status in 302ms (376 modules)
+ GET /api/config-status 200 in 440ms
+ GET /api/config-status 200 in 441ms
+ ✓ Compiled /api/generate-meal-plan in 184ms (381 modules)
+ POST /api/generate-meal-plan 200 in 9226ms
+ POST /api/generate-meal-plan 200 in 29652ms
+ POST /api/generate-meal-plan 502 in 30052ms
+   Reload env: .env.local
+ ✓ Compiled in 851ms (703 modules)
+ ✓ Compiled /api/config-status in 217ms (376 modules)
+ GET /api/config-status 200 in 336ms
+ ✓ Compiled /api/generate-meal-plan in 203ms (381 modules)
+ POST /api/generate-meal-plan 200 in 40146ms
+ ✓ Compiled /api/ai/stream in 518ms (385 modules)
+ POST /api/ai/stream 200 in 3327ms
+ GET /meal-plan 200 in 251ms
+ GET /meal-plan 200 in 44ms
+ GET /meal-plan 200 in 74ms
+ ✓ Compiled /api/weather in 191ms (375 modules)
+ GET /api/weather?lat=22.28360711974238&lon=114.13776608329556&city=%E6%B7%B1%E5%9C%B3 200 in 2365ms
+ GET /api/weather?lat=22.28360711974238&lon=114.13776608329556 200 in 2654ms
+ GET /api/weather?lat=22.28360711974238&lon=114.13776608329556 200 in 537ms
+ GET /api/weather?lat=22.28360711974238&lon=114.13776608329556 200 in 2814ms
+ GET /api/weather?lat=22.28360711974238&lon=114.13776608329556&city=%E6%B7%B1%E5%9C%B3 200 in 2758ms
+ GET /api/weather?lat=22.28360711974238&lon=114.13776608329556 200 in 694ms
+ GET /api/weather?lat=22.28360711974238&lon=114.13776608329556 200 in 2130ms
+ GET /api/weather?lat=22.28360711974238&lon=114.13776608329556&city=%E6%B7%B1%E5%9C%B3 200 in 2156ms
+ GET /api/weather?lat=22.28360711974238&lon=114.13776608329556 200 in 574ms
+ GET /api/weather?lat=22.28360711974238&lon=114.13776608329556 200 in 2206ms
+ GET /api/weather?lat=22.28360711974238&lon=114.13776608329556&city=%E6%B7%B1%E5%9C%B3 200 in 2139ms
+ GET /api/weather?lat=22.28360711974238&lon=114.13776608329556 200 in 564ms
+ ✓ Compiled /api/ai/stream in 283ms (380 modules)
+ POST /api/ai/stream 200 in 2249ms
+ GET /api/weather?lat=22.28360711974238&lon=114.13776608329556&city=%E6%B7%B1%E5%9C%B3 200 in 2666ms
+ GET /api/weather?lat=22.28360711974238&lon=114.13776608329556 200 in 2669ms
+ GET /api/weather?lat=22.28360711974238&lon=114.13776608329556 200 in 595ms
+ GET /api/weather?lat=22.28360711974238&lon=114.13776608329556 200 in 2720ms
+ GET /api/weather?lat=22.28360711974238&lon=114.13776608329556 200 in 551ms
+ GET /api/weather?lat=22.28360711974238&lon=114.13776608329556&city=%E6%B7%B1%E5%9C%B3 200 in 3462ms
+ GET /api/weather?lat=22.28360711974238&lon=114.13776608329556 200 in 2179ms
+ GET /api/weather?lat=22.28360711974238&lon=114.13776608329556&city=%E6%B7%B1%E5%9C%B3 200 in 2184ms
+ GET /api/weather?lat=22.28360711974238&lon=114.13776608329556 200 in 571ms
+ GET / 200 in 150ms
+ GET /api/weather?lat=22.283603318932197&lon=114.13778019306628&city=%E6%B7%B1%E5%9C%B3 200 in 2148ms
+ GET /api/weather?lat=22.283603318932197&lon=114.13778019306628 200 in 2162ms
+ GET /api/weather?lat=22.283603318932197&lon=114.13778019306628 200 in 591ms
+ GET /api/weather?lat=22.283603318932197&lon=114.13778019306628 200 in 2161ms
+ GET /api/weather?lat=22.283603318932197&lon=114.13778019306628 200 in 607ms
+ GET /api/weather?lat=22.283603318932197&lon=114.13778019306628&city=%E6%B7%B1%E5%9C%B3 200 in 3314ms
+ ✓ Compiled /api/config-status in 238ms (378 modules)
+ GET /api/config-status 200 in 298ms
+ GET /meal-plan 200 in 190ms
+[?25h

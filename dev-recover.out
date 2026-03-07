@@ -1,0 +1,40 @@
+
+> healmeal@0.1.0 dev
+> next dev -H 0.0.0.0 -p 7860
+
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:7860
+  - Network:      http://0.0.0.0:7860
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 4.4s
+ ○ Compiling / ...
+ ✓ Compiled / in 1982ms (549 modules)
+ GET / 200 in 2585ms
+ GET / 200 in 102ms
+ GET / 200 in 83ms
+ ○ Compiling /api/weather ...
+ ✓ Compiled /api/weather in 702ms (304 modules)
+ GET /api/weather?lat=22.26707086269937&lon=114.12812220365583&city=%E6%B7%B1%E5%9C%B3 200 in 3106ms
+ GET /api/weather?lat=22.26707086269937&lon=114.12812220365583 200 in 3184ms
+ GET /api/weather?lat=22.26707086269937&lon=114.12812220365583 200 in 567ms
+ ✓ Compiled /api/ai/stream in 354ms (309 modules)
+ POST /api/ai/stream 200 in 7198ms
+ ○ Compiling /meal-plan ...
+ ✓ Compiled /meal-plan in 4.4s (608 modules)
+ ✓ Compiled /api/generate-meal-plan in 477ms (314 modules)
+[generate-meal-plan] env has key: true
+[generate-meal-plan] USE_MOCK: undefined
+ POST /api/generate-meal-plan 200 in 39047ms
+ ○ Compiling /checkin ...
+ ✓ Compiled /checkin in 1031ms (567 modules)
+ ○ Compiling /logs ...
+ ✓ Compiled /logs in 2.1s (678 modules)
+ ○ Compiling /family ...
+ ✓ Compiled /family in 980ms (684 modules)
+ ✓ Compiled in 1782ms (642 modules)
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 3.3s (866 modules)
+ GET / 500 in 4774ms
+ GET /meal-plan 500 in 66ms

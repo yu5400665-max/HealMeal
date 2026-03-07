@@ -1,0 +1,6 @@
+﻿{
+  "profile": {"surgeryDisplayName":"甲状腺术后","postOpDay":10,"longTermAvoidFoods":["辛辣"]},
+  "todayState": {"appetite":"一般","dietStage":"清淡","symptom":"无","mealTemplate":"均衡版","dietMode":["清淡"],"avoidFoods":["不吃辛辣"],"cookingTimeMinutes":30},
+  "availableIngredients": ["鸡蛋","青菜","南瓜","豆腐","小米"],
+  "strategyHint": "优先蒸煮炖，少量多餐"
+}

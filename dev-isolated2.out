@@ -1,0 +1,36 @@
+
+> healmeal@0.1.0 dev
+> scripts\dev-win.cmd
+
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:7860
+  - Network:      http://0.0.0.0:7860
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 4s
+ ○ Compiling / ...
+ ✓ Compiled / in 1957ms (555 modules)
+ GET / 200 in 2742ms
+ ○ Compiling /checkin ...
+ ✓ Compiled /checkin in 1105ms (567 modules)
+ GET /checkin 200 in 1430ms
+ ✓ Compiled /meal-plan in 514ms (575 modules)
+ GET /meal-plan 200 in 670ms
+ ○ Compiling /logs ...
+ ✓ Compiled /logs in 722ms (688 modules)
+ GET /logs 200 in 910ms
+ ✓ Compiled in 632ms (688 modules)
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:7860
+  - Network:      http://0.0.0.0:7860
+  - Environments: .env.local
+
+ ✓ Starting...
+
+   We detected TypeScript in your project and reconfigured your tsconfig.json file for you. Strict-mode is set to false by default.
+   The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+   	- include was updated to add 'next-dev-dist/types/**/*.ts'
+
+ ✓ Ready in 3.7s

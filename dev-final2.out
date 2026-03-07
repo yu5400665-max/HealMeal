@@ -1,0 +1,12 @@
+
+> healmeal@0.1.0 dev
+> next dev -H 0.0.0.0 -p 7860
+
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:7860
+  - Network:      http://0.0.0.0:7860
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 3.9s
+[?25h

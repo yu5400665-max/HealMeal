@@ -1,0 +1,44 @@
+
+> healmeal@0.1.0 dev:win
+> scripts\dev-win.cmd
+
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:7860
+  - Network:      http://0.0.0.0:7860
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 4s
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 13.7s (578 modules)
+ GET /checkin 200 in 13791ms
+ GET /checkin 200 in 443ms
+ GET /_next/static/webpack/87cb352df0aebb59.webpack.hot-update.json 404 in 14211ms
+ GET /checkin 200 in 89ms
+ ○ Compiling /meal-plan ...
+ ✓ Compiled /meal-plan in 846ms (572 modules)
+ GET /checkin 200 in 208ms
+ ○ Compiling / ...
+ ✓ Compiled / in 930ms (578 modules)
+ GET /meal-plan 200 in 1090ms
+ GET / 200 in 1135ms
+ ✓ Compiled /api/weather in 349ms (321 modules)
+ GET /api/weather?lat=22.283608308743677&lon=114.13777522019797 200 in 2648ms
+ GET /api/weather?lat=22.283608308743677&lon=114.13777522019797&city=%E6%B7%B1%E5%9C%B3 200 in 2339ms
+ GET /api/weather?lat=22.283608308743677&lon=114.13777522019797 200 in 567ms
+ ○ Compiling /family ...
+ ✓ Compiled /family in 664ms (614 modules)
+ GET /api/weather?lat=22.283608308743677&lon=114.13777522019797&city=%E6%B7%B1%E5%9C%B3 200 in 2239ms
+ GET /api/weather?lat=22.283608308743677&lon=114.13777522019797 200 in 2260ms
+ GET /api/weather?lat=22.283608308743677&lon=114.13777522019797 200 in 557ms
+ ○ Compiling /logs ...
+ ✓ Compiled /logs in 2.1s (695 modules)
+ ✓ Compiled in 1634ms (709 modules)
+ ✓ Compiled in 775ms (709 modules)
+ ✓ Compiled in 1346ms (709 modules)
+ ✓ Compiled in 661ms (709 modules)
+ ✓ Compiled in 798ms (709 modules)
+ ✓ Compiled in 781ms (709 modules)
+ ✓ Compiled in 804ms (709 modules)
+ ✓ Compiled in 693ms (709 modules)
+[?25h
