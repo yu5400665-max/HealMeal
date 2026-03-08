@@ -46,10 +46,10 @@ const TEMPLATE_OPTIONS: MealTemplateMode[] = ["省心版", "均衡版", "家常�
 const STYLE_OPTIONS: MealStylePreference[] = ["中式", "西式", "家常", "清淡", "轻食"];
 const STAGE_CEILING: Record<GenerationStage, number> = {
   idle: 0,
-  preparing: 18,
-  requesting: 58,
-  parsing: 84,
-  rendering: 97,
+  preparing: 12,
+  requesting: 50,
+  parsing: 72,
+  rendering: 92,
   done: 100
 };
 const MEAL_ORDER: MealDish["mealType"][] = ["早餐", "午餐", "晚餐", "加餐"];
@@ -124,10 +124,64 @@ function sanitizeDish(raw: Partial<MealDish>, mealType: MealDish["mealType"], in
   };
 }
 
+function toMealTypeFromApiKey(key: string): MealDish["mealType"] {
+  if (key === "breakfast") return "早餐";
+  if (key === "lunch") return "午餐";
+  if (key === "dinner") return "晚餐";
+  return "加餐";
+}
+
+function normalizeStructuredMenu(raw: unknown): MealDish[] {
+  if (!raw || typeof raw !== "object") return [];
+  const obj = raw as Record<string, unknown>;
+  const slots: Array<"breakfast" | "lunch" | "dinner"> = ["breakfast", "lunch", "dinner"];
+  const meals: MealDish[] = [];
+
+  slots.forEach((slot) => {
+    const mealType = toMealTypeFromApiKey(slot);
+    const list = Array.isArray(obj[slot]) ? (obj[slot] as Array<Record<string, unknown>>) : [];
+    list.forEach((item, index) => {
+      meals.push(
+        sanitizeDish(
+          {
+            mealType,
+            dishName: String(item?.name || `${mealType}建议`),
+            ingredients: Array.isArray(item?.ingredients) ? (item.ingredients as string[]) : [],
+            steps: Array.isArray(item?.steps) ? (item.steps as string[]) : [],
+            estimatedMinutes: Number(item?.time) || 20,
+            cautionNote: String(item?.tips || "若出现不适请暂停并咨询医生。"),
+            whyThisMeal: String(item?.tips || "基于当前状态给出的温和饮食建议。"),
+            tags: ["温和", "家常"],
+            nutrition: {
+              caloriesKcal: Number(item?.calories) || 260,
+              proteinG: Number(item?.protein) || 12,
+              carbsG: Number(item?.carbs) || 30,
+              fatG: Number(item?.fat) || 8
+            }
+          },
+          mealType,
+          index + 1
+        )
+      );
+    });
+  });
+
+  return meals.sort((a, b) => MEAL_ORDER.indexOf(a.mealType) - MEAL_ORDER.indexOf(b.mealType));
+}
+
 function normalizePlan(raw: unknown, fallback: MealPlan) {
   if (!raw || typeof raw !== "object") return fallback;
-  const obj = raw as any;
-  const candidate = obj?.mealPlan ?? obj?.meal_plan ?? obj?.plan ?? obj?.data ?? obj;
+  const obj = raw as Record<string, unknown>;
+  const strictMeals = normalizeStructuredMenu(obj);
+  if (strictMeals.length > 0) {
+    return {
+      ...fallback,
+      meals: strictMeals
+    };
+  }
+
+  const legacyObj = obj as any;
+  const candidate = legacyObj?.mealPlan ?? legacyObj?.meal_plan ?? legacyObj?.plan ?? legacyObj?.data ?? legacyObj;
   const payload = (candidate?.meals ? candidate : candidate?.mealPlan) ?? candidate;
   if (!payload || !Array.isArray(payload.meals)) return fallback;
 
@@ -153,6 +207,12 @@ function templateCounts(template: MealTemplateMode, customCounts: MealCountConfi
   if (template === "家常版") return { breakfast: 1, lunch: 3, dinner: 3, snack: 1 };
   if (template === "自定义") return normalizeCounts(customCounts);
   return { breakfast: 1, lunch: 3, dinner: 3, snack: 1 };
+}
+
+function simplifyGoalToPreference(value: MealSimplifyGoal): string {
+  if (value === "easy") return "更简单好做";
+  if (value === "gentle") return "更清淡温和";
+  return "更营养均衡";
 }
 
 function slotLabel(mealType: MealDish["mealType"], index: number) {
@@ -708,6 +768,7 @@ export default function MealPlanPage() {
 
     setLoading(true);
     setGenerationStage("requesting");
+    setGenerationProgress(50);
     const controller = new AbortController();
     fetchAbortRef.current = controller;
 
@@ -734,26 +795,19 @@ export default function MealPlanPage() {
     );
 
     try {
-      const response = await fetch("/api/generate-meal-plan", {
+      const response = await fetch("/api/meal-plan", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         signal: controller.signal,
         body: JSON.stringify({
-          profile,
-          todayState: {
-            appetite,
-            dietStage,
-            symptom,
-            mealTemplate,
-            customMealCounts: normalizeCounts(customMealCounts),
-            stylePreference,
-            simplifyGoal,
-            avoidFoods,
-            customAvoidFoods,
-            availableIngredients: ingredientList
-          },
+          dietStage,
+          currentSymptom: symptom,
+          appetite,
+          template: mealTemplate,
           availableIngredients: ingredientList,
-          forceRegenerate
+          forbidden: unique([...avoidFoods, ...customAvoidFoods]),
+          preference: simplifyGoalToPreference(simplifyGoal),
+          forceRegenerate: Boolean(forceRegenerate)
         })
       });
 
@@ -775,6 +829,7 @@ export default function MealPlanPage() {
       setDailyMealPlan(next);
       setPlan(next);
       setGenerationStage("done");
+      setGenerationProgress(100);
 
       const source = data?.source || "ai";
       if (source === "safe-fallback") setStatusText(t("meal.statusSafeFallback"));
@@ -902,6 +957,17 @@ export default function MealPlanPage() {
     }
   };
 
+  const openInNewTab = (url: string) => {
+    const opened = window.open(url, "_blank", "noopener,noreferrer");
+    if (!opened) return false;
+    try {
+      opened.opener = null;
+    } catch {
+      // noop
+    }
+    return true;
+  };
+
   const openPlatform = async (platform: PlatformKey, dishName: string) => {
     const pureName = sanitizeDishName(dishName);
     const copied = await safeCopy(pureName);
@@ -911,7 +977,7 @@ export default function MealPlanPage() {
       xiaohongshu: `https://www.xiaohongshu.com/search_result?keyword=${encoded}`,
       bilibili: `https://search.bilibili.com/all?keyword=${encoded}`
     };
-    const opened = window.open(links[platform], "_blank", "noopener,noreferrer");
+    const opened = openInNewTab(links[platform]);
     if (!opened) {
       setStatusText(copied ? t("meal.searchCopiedFallback") : t("meal.searchFallback"));
       return;

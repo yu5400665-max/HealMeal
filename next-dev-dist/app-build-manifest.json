@@ -21,6 +21,16 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
+    "/meal-plan/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/meal-plan/page.js"
+    ],
+    "/checkin/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/checkin/page.js"
+    ],
     "/logs/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -31,30 +41,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/family/page.js"
     ],
-    "/checkin/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/checkin/page.js"
-    ],
     "/logs/publish/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/logs/publish/page.js"
-    ],
-    "/logs/[id]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/logs/[id]/page.js"
-    ],
-    "/logs/me/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/logs/me/page.js"
-    ],
-    "/meal-plan/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/meal-plan/page.js"
     ]
   }
 }
